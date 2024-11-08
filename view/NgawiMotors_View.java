@@ -1,5 +1,5 @@
 class NgawiMotors_View {
-    public static void tampilkanReceipt(SewaController controller) {
+    public static void tampilkanReceipt(NgawiMotors_Controler controller) {
         Mobil mobil = new Mobil();
 
         for (int i = 1; i<= controller.paket; i++) {
